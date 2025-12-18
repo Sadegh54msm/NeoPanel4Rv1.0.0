@@ -1,202 +1,212 @@
- NeoPanel4R - Smart IoT Relay Controller
+# NeoPanel4R v1.0.0 – ESP8266 IoT Control Panel
 
-![NeoPanel4R Dashboard](images/dashboard-screenshot.png)
+[🇮🇷 نسخه فارسی README](./README_FA.md)
 
-## 🎯 Features
+NeoPanel4R is a **professional-grade ESP8266-based web control panel** designed for real-world IoT installations such as:
 
-- ✅ 4 Relay Outputs with individual control
-- ✅ 2 DHT22 Temperature & Humidity sensors
-- ✅ Local web dashboard (works offline)
-- ✅ Cloud synchronization
-- ✅ Scheduling with second-precision
-- ✅ Thermostat mode
-- ✅ Momentary/pulse mode
-- ✅ OTA firmware updates
-- ✅ Dual WiFi (AP + STA)
-- ✅ Responsive web interface
+- Smart home relay boards  
+- Industrial control panels  
+- Remote switching and monitoring  
 
-## 📦 What's Included
-
-- Complete ESP8266 firmware source code
-- Pre-compiled binary (.bin)
-- PHP server-side scripts
-- MySQL database schema
-- Full documentation
-- Wiring diagrams
-
-## 🚀 Quick Start
-
-See [INSTALLATION.md](docs/INSTALLATION.md)
-
-## 📖 Documentation
-
-- [Installation Guide](docs/INSTALLATION.md)
-- [User Manual (English)](docs/USER-MANUAL-EN.md)
-- [User Manual (فارسی)](docs/USER-MANUAL-FA.md)
-- [API Reference](docs/API-REFERENCE.md)
-- [Troubleshooting](docs/TROUBLESHOOTING.md)
-
-## 🔧 Requirements
-
-### Hardware
-- ESP8266 (NodeMCU or Wemos D1 Mini)
-- 4-Channel Relay Module (Active LOW)
-- 2x DHT22 Sensors
-- 5V Power Supply
-
-### Software
-- Arduino IDE 1.8+ or PlatformIO
-- PHP 7.4+ with PDO
-- MySQL 5.7+ or MariaDB
-
-## 📞 Support
-
-- Email: support@iot-smart.ir
-- Email: m.msm30@gmail.com
-- Website: https://iot-smart.ir
-
-## 📜 License
-
-This is proprietary software. See [LICENSE.md](LICENSE.md)
-
----
-© 2025 Mohammad Sadegh Moridi. All rights reserved.
-
+This project focuses on **stability, clean UI, and practical configuration options** for installers and integrators.
 
 ---
 
-## 🚀 Quick Start
+## ✨ Key Features
 
-### 1. Hardware Setup
-Connect components according to [wiring diagram](hardware/wiring-diagram.png)
-
-### 2. Upload Firmware
-Open firmware/NeoPanel4R_v1.0.0.ino in Arduino IDE
-Select Board: NodeMCU 1.0
-Click Upload
-
-### 3. Connect
-Connect to WiFi: NeoPanel4R_AP
-Password: 12345678
-Open: http://192.168.4.1
-Login: admin / 12345678
-
-
-**📖 Full guide: [docs/INSTALLATION.md](docs/INSTALLATION.md)**
+- Built on **ESP8266** (NodeMCU / Wemos D1 mini, etc.)
+- **Web-based control panel**
+- Multi-relay support (4-channel main target)
+- WiFi configuration via web interface
+- Persistent settings (saved in flash)
+- Designed for **real deployment**, not just demo
 
 ---
 
-## 🔧 Hardware Requirements
+## 🧩 Requirements
 
-| Component | Quantity | Notes |
-|-----------|----------|-------|
-| ESP8266 NodeMCU | 1 | Or Wemos D1 Mini |
-| 4-Channel Relay | 1 | Active LOW |
-| DHT22 Sensor | 2 | Temperature & Humidity |
-| 5V Power Supply | 1 | 2A recommended |
-| Jumper Wires | ~15 | |
-
-**💰 Estimated cost: $15-25**
+- ESP8266 board (NodeMCU, Wemos D1 mini, etc.)
+- Arduino IDE or PlatformIO
+- Basic electronics knowledge for wiring relays
+- Stable 5V power supply (for relays)
 
 ---
 
-## 📌 Pin Configuration
+## 📦 What You Get
 
-| ESP8266 Pin | Function |
-|-------------|----------|
-| D1 (GPIO5) | Relay 1 - Scheduling |
-| D2 (GPIO4) | Relay 2 - Momentary |
-| D5 (GPIO14) | Relay 3 - Thermostat |
-| D6 (GPIO12) | Relay 4 - Auxiliary |
-| D7 (GPIO13) | DHT22 Sensor 1 |
-| D8 (GPIO15) | DHT22 Sensor 2 |
+After purchasing a license, you will receive:
 
----
-
-## 📖 Documentation
-
-| Document | Description |
-|----------|-------------|
-| [INSTALLATION.md](docs/INSTALLATION.md) | Step-by-step setup guide |
-| [USER-MANUAL-EN.md](docs/USER-MANUAL-EN.md) | English user manual |
-| [USER-MANUAL-FA.md](docs/USER-MANUAL-FA.md) | Persian user manual |
-| [API-REFERENCE.md](docs/API-REFERENCE.md) | Cloud API documentation |
-| [TROUBLESHOOTING.md](docs/TROUBLESHOOTING.md) | Common issues & fixes |
+- Complete **source code** of NeoPanel4R
+- Documentation for:
+  - Flashing firmware
+  - Wiring diagram / relays connection
+  - Basic troubleshooting
+- License for **commercial use** under the selected plan
 
 ---
 
-## 🛠️ Technical Specifications
+## 💼 Licensing & Pricing
 
-| Parameter | Value |
-|-----------|-------|
-| Processor | ESP8266 @ 80MHz |
-| Flash | 4MB |
-| WiFi | 802.11 b/g/n |
-| Relay Capacity | 10A @ 250VAC |
-| Temp Range | -40°C to 80°C |
-| Temp Accuracy | ±0.5°C |
-| Cloud Sync | Every 10 seconds |
-| Local Response | < 100ms |
-
----
-
-## 📞 Support
-
-- 📧 Email: support@iot-smart.ir
-- 🌐 Website: https://iot-smart.ir
-
----
-
-## 📜 License
-
-This is **commercial software**. See [LICENSE.md](LICENSE.md) for terms.
-
----
-
-## 👨‍💻 Author
-
-**Mohammad Sadegh Moridi**
-
-- Website: [iot-smart.ir](https://iot-smart.ir)
-- Email: info@iot-smart.ir
-- Email: m.msm30@gmail.com
----
-
-© 2025 Mohammad Sadegh Moridi. All rights reserved.
-## Pricing & Purchase
-
-### 🔵 Professional License (With Support)
-Recommended for real-world projects and fast deployment.
-
-✅ Full source code  
-✅ Complete setup & installation guide  
-✅ Technical support (14 days)  
-✅ Priority response (24–48 hours)  
-✅ Hardware wiring checklist  
-✅ One-time configuration review  
-
-**Price:**  
-- 299 USDT (TON Network)  
-- or 43 TON  
-
----
+We offer two license tiers:
 
 ### 🟢 Developer License (No Support)
-For experienced developers only.
 
-✅ Full source code  
-✅ Documentation  
-✅ Commercial usage (single project)  
+**For experienced developers** who can handle setup and troubleshooting by themselves.
 
-❌ No technical support  
-❌ No warranty  
+Includes:
 
-**Price:**  
-- 149 USDT (TON Network)  
-- or 21 TON  
+- ✅ Full project source code  
+- ✅ Documentation  
+- ✅ Commercial usage license (single project)  
+
+Does **NOT** include:
+
+- ❌ Technical support  
+- ❌ Customization  
+- ❌ Warranty  
+
+**Price:**
+
+- **149 USD** (USDT on TON Network), or  
+- **21 TON**
+
+🕒 **Price valid until: June 30, 2026**
 
 ---
 
-### 🔐 Payment Method
-Payment is accepted via **TON or USDT (TON Network)** using Tonkeeper.
+### 🔵 Professional License (With Support)
 
+**Recommended for integrators, installers, and commercial projects.**
+
+Includes:
+
+- ✅ Full project source code  
+- ✅ Complete setup & installation documentation  
+- ✅ **14 days of active technical support**  
+- ✅ Priority response (within 24–48 hours)  
+- ✅ Hardware wiring checklist  
+- ✅ **One-time configuration and setup review** for your installation
+
+**Price:**
+
+- **299 USD** (USDT on TON Network), or  
+- **43 TON**
+
+🕒 **Price valid until: June 30, 2026**
+
+---
+
+## 🔧 Support Policy (Professional License Only)
+
+**Support covers:**
+
+- Bug fixes related to the official release  
+- Help with configuration and initial setup  
+- Guidance for typical hardware wiring scenarios  
+
+**Support does NOT cover:**
+
+- New feature development  
+- Major code refactoring  
+- Custom integrations for your specific environment  
+
+Support window:
+
+- **14 days** from the date of purchase (Professional License)
+- Access to minor updates and fixes for **up to 1 year**
+
+By purchasing this project, you agree to these terms.
+
+---
+
+## 🔐 Payment Method (Crypto Only – TON Network)
+
+Currently, this project is sold **only via crypto on the TON network**:
+
+- **TON**
+- **USDT (TON Network)**
+
+### ✅ TON Wallet Address + QR Code
+
+You can pay directly to the following TON wallet address:
+
+<span dir="ltr">`UQDL0a8BzT9QgQwyPp1lizdprvSRJpGPRXAlVYgNZ4RJz6or`</span>
+
+The address is compatible with:
+
+- **Tonkeeper**
+- Other popular TON-compatible wallets
+
+To make payment easier, you can scan this QR code (TON address encoded):
+
+[TON Wallet QR Code](./ton-wallet-qr.png)
+
+> Tip: On GitHub, after you upload `ton-wallet-qr.png` to the repository root,  
+> users can click this link to view/download the QR and scan it from their wallet app.
+
+---
+
+## 📩 How to Purchase & Delivery Process
+
+1. **Choose your license**  
+   - Developer (No Support) – 149 USD / 21 TON  
+   - Professional (With Support) – 299 USD / 43 TON  
+
+2. **Send the payment** to the TON wallet address:  
+   <span dir="ltr">`UQDL0a8BzT9QgQwyPp1lizdprvSRJpGPRXAlVYgNZ4RJz6or`</span>  
+   or scan the **QR code**:  
+   [TON Wallet QR Code](./ton-wallet-qr.png)
+
+3. **Save your transaction hash (TXID)**  
+   From your wallet (Tonkeeper, etc.), copy the transaction ID.
+
+4. **Contact for delivery**  
+   Send the following information via **email or Telegram**:
+   - TXID (transaction hash)  
+   - Selected license type (**Developer** or **Professional**)  
+   - Your **email address** (for file delivery)  
+   - Optional: Your **Telegram ID** for faster communication  
+
+5. **Manual delivery**  
+   - You will receive:
+     - Source code package (ZIP)
+     - Documentation
+   - Delivery time: **within 24 hours** after payment confirmation.
+
+---
+
+## ⚠️ Important Notes
+
+- This is **not** a beginner Arduino tutorial; it is a **deployment-oriented** project.
+- Some basic knowledge of:
+  - ESP8266 flashing
+  - WiFi configuration
+  - Relay modules and AC safety
+  is **strongly recommended**.
+
+- Always follow **electrical safety rules** when working with high voltage.
+
+---
+
+## 🔄 Future Updates
+
+Planned improvements (not guaranteed, but intended):
+
+- Optional MQTT integration  
+- More configurable channels  
+- UI refinements for mobile devices  
+
+Professional customers may get priority for certain improvements based on feedback.
+
+---
+
+## 📞 Contact
+
+For purchase, questions, or pre-sale details, please contact via:
+
+- Email: *(add your email here)*  
+- Telegram: *(add your Telegram @username here)*  
+
+---
+
+**NeoPanel4R v1.0.0** – designed for **real installations**, not just demos.
