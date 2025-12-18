@@ -163,3 +163,10 @@ This is **commercial software**. See [LICENSE.md](LICENSE.md) for terms.
 ---
 
 © 2025 Mohammad Sadegh Moridi. All rights reserved.
+## Purchase
+
+To purchase this project, pay using **TON or USDT (TON Network)**.
+
+After payment, the full source code will be delivered manually via email or Telegram.
+
+**Payment (Tonkeeper):**
