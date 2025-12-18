@@ -2,6 +2,8 @@
 
 [🇮🇷 Persian Version (README_FA.md)](./README_FA.md)
 
+🌐 **Official Website:** https://iot-smart.ir
+
 NeoPanel4R is a **production-ready ESP8266-based IoT web control panel** designed for real-world installations such as smart relay boards, industrial control systems, and remote switching solutions.
 
 This project focuses on **stability, clarity, and usability**, making it suitable for developers, system integrators, and professional installers.
@@ -143,8 +145,7 @@ Compatible with **Tonkeeper** and other TON-based wallets.
 
 ## 📞 Contact Information
 
-For purchase confirmation, delivery, or support requests:
-
+- 🌐 **Website:** https://iot-smart.ir
 - 📧 **Sales & Delivery:** info@iot-smart.ir  
 - 🛠 **Support:** support@iot-smart.ir  
 - 📮 **Alternative Email:** m.msm30@gmail.com  
