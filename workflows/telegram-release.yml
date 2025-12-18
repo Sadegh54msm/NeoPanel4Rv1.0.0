@@ -1,11 +1,11 @@
-name: Telegram Release Notify
+name: Telegram Release
 
 on:
   release:
-_toggle: 
+    types: [published]
 
 jobs:
-  send_to_telegram:
+  notify:
     runs-on: ubuntu-latest
     steps:
       - name: Send release message to Telegram
@@ -13,13 +13,42 @@ jobs:
           BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: |
-          TEXT="🚀 *New Release Published!*\n\n\
-          📦 *${{ github.event.release.name }}*\n\
-          🔖 Tag: ${{ github.event.release.tag_name }}\n\n\
-          📝 ${{ github.event.release.body }}\n\n\
-          🔗 View Release:\n${{ github.event.release.html_url }}"
+          VERSION="${GITHUB_REF##*/}"
+          DATE=$(date +"%Y-%m-%d")
+          REPO_URL="https://github.com/${GITHUB_REPOSITORY}"
 
-          curl -s -X POST https://api.telegram.org/bot$BOT_TOKEN/sendMessage \
-            -d chat_id=$CHAT_ID \
-            -d parse_mode=Markdown \
-            --data-urlencode text="$TEXT"
+          TEXT="🚀 NeoPanel4R – New Release
+
+🔖 Version: ${VERSION}
+📅 Date: ${DATE}
+
+✅ Clean & readable firmware  
+✅ Reliable for production use  
+✅ Designed for stability, not demos
+
+🔗 GitHub (docs & releases):
+${REPO_URL}
+
+────────────────────
+
+🇮🇷 نسخه فارسی
+
+🚀 انتشار جدید NeoPanel4R
+
+🔖 نسخه: ${VERSION}
+📅 تاریخ: ${DATE}
+
+• فریمور تمیز و قابل فهم  
+• پایدار و مناسب استفاده نهایی  
+• طراحی‌شده برای پروژه‌های واقعی IoT  
+• مبتنی بر ESP8266  
+
+🔗 گیت‌هاب (مستندات و نسخه‌ها):
+${REPO_URL}
+
+🌐 Website:
+https://iot-smart.ir"
+
+          curl -s -X POST "https://api.telegram.org/bot${BOT_TOKEN}/sendMessage" \
+          -d chat_id="${CHAT_ID}" \
+          --data-urlencode text="${TEXT}"
