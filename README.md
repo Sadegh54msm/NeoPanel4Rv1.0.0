@@ -1,74 +1,67 @@
 # NeoPanel4R v1.0.0 – ESP8266 IoT Control Panel
 
-[🇮🇷 نسخه فارسی README](./README_FA.md)
+[🇮🇷 Persian Version (README_FA.md)](./README_FA.md)
 
-NeoPanel4R is a **professional-grade ESP8266-based web control panel** designed for real-world IoT installations such as:
+NeoPanel4R is a **production-ready ESP8266-based IoT web control panel** designed for real-world installations such as smart relay boards, industrial control systems, and remote switching solutions.
 
-- Smart home relay boards  
-- Industrial control panels  
-- Remote switching and monitoring  
-
-This project focuses on **stability, clean UI, and practical configuration options** for installers and integrators.
+This project focuses on **stability, clarity, and usability**, making it suitable for developers, system integrators, and professional installers.
 
 ---
 
 ## ✨ Key Features
 
-- Built on **ESP8266** (NodeMCU / Wemos D1 mini, etc.)
-- **Web-based control panel**
-- Multi-relay support (4-channel main target)
-- WiFi configuration via web interface
-- Persistent settings (saved in flash)
-- Designed for **real deployment**, not just demo
+- ESP8266 based (NodeMCU, Wemos D1 mini, compatible boards)
+- Web-based control panel (no mobile app needed)
+- Multi-channel relay control (optimized for 4-channel boards)
+- WiFi setup via web interface
+- Persistent configuration (flash storage)
+- Clean, responsive UI
+- Designed for **real deployment**, not experimental demos
 
 ---
 
 ## 🧩 Requirements
 
-- ESP8266 board (NodeMCU, Wemos D1 mini, etc.)
+- ESP8266 board  
+- Relay module (4-channel recommended)
 - Arduino IDE or PlatformIO
-- Basic electronics knowledge for wiring relays
-- Stable 5V power supply (for relays)
+- Basic electronics knowledge
+- Proper power supply (especially for relays)
 
 ---
 
-## 📦 What You Get
+## 📦 What You Receive
 
-After purchasing a license, you will receive:
+After purchasing a license:
 
-- Complete **source code** of NeoPanel4R
-- Documentation for:
-  - Flashing firmware
-  - Wiring diagram / relays connection
-  - Basic troubleshooting
-- License for **commercial use** under the selected plan
+- ✅ Full project source code
+- ✅ Documentation:
+  - Firmware flashing
+  - WiFi & panel configuration
+  - Relay wiring guidelines
+- ✅ Commercial usage license (based on selected plan)
 
 ---
 
 ## 💼 Licensing & Pricing
 
-We offer two license tiers:
-
 ### 🟢 Developer License (No Support)
 
-**For experienced developers** who can handle setup and troubleshooting by themselves.
+Best suited for experienced developers.
 
-Includes:
+**Includes:**
+- ✅ Full source code
+- ✅ Documentation
+- ✅ Commercial usage (single project)
 
-- ✅ Full project source code  
-- ✅ Documentation  
-- ✅ Commercial usage license (single project)  
-
-Does **NOT** include:
-
-- ❌ Technical support  
-- ❌ Customization  
-- ❌ Warranty  
+**Does NOT include:**
+- ❌ Technical support
+- ❌ Warranty
+- ❌ Customization
 
 **Price:**
-
-- **149 USD** (USDT on TON Network), or  
-- **21 TON**
+- **149 USD** (USDT on TON Network)
+- **or 21 TON**
 
 🕒 **Price valid until: June 30, 2026**
 
@@ -76,137 +69,111 @@ Does **NOT** include:
 
 ### 🔵 Professional License (With Support)
 
-**Recommended for integrators, installers, and commercial projects.**
+Recommended for commercial and real installations.
 
-Includes:
-
-- ✅ Full project source code  
-- ✅ Complete setup & installation documentation  
-- ✅ **14 days of active technical support**  
-- ✅ Priority response (within 24–48 hours)  
-- ✅ Hardware wiring checklist  
-- ✅ **One-time configuration and setup review** for your installation
+**Includes:**
+- ✅ Full source code
+- ✅ Complete setup & installation documentation
+- ✅ **14 days active technical support**
+- ✅ Priority response (24–48 hours)
+- ✅ Hardware wiring checklist
+- ✅ **One-time setup & configuration review**
 
 **Price:**
-
-- **299 USD** (USDT on TON Network), or  
-- **43 TON**
+- **299 USD** (USDT on TON Network)
+- **or 43 TON**
 
 🕒 **Price valid until: June 30, 2026**
 
 ---
 
-## 🔧 Support Policy (Professional License Only)
+## 🔧 Support Policy
 
-**Support covers:**
+Support is available **only for the Professional License**.
 
-- Bug fixes related to the official release  
-- Help with configuration and initial setup  
-- Guidance for typical hardware wiring scenarios  
+**Support includes:**
+- Bug fixes related to the official release
+- Guidance for setup and configuration
+- Typical hardware wiring questions
 
-**Support does NOT cover:**
+**Support does NOT include:**
+- Custom development
+- New feature requests
+- Project-specific modifications
 
-- New feature development  
-- Major code refactoring  
-- Custom integrations for your specific environment  
-
-Support window:
-
-- **14 days** from the date of purchase (Professional License)
-- Access to minor updates and fixes for **up to 1 year**
-
-By purchasing this project, you agree to these terms.
+Support duration:
+- **14 days technical support**
+- Access to minor fixes and updates for **up to 1 year**
 
 ---
 
 ## 🔐 Payment Method (Crypto Only – TON Network)
 
-Currently, this project is sold **only via crypto on the TON network**:
+Payments are accepted via:
 
 - **TON**
 - **USDT (TON Network)**
 
-### ✅ TON Wallet Address + QR Code
-
-You can pay directly to the following TON wallet address:
+### ✅ TON Wallet Address & QR Code
 
 <span dir="ltr">`UQDL0a8BzT9QgQwyPp1lizdprvSRJpGPRXAlVYgNZ4RJz6or`</span>
 
-The address is compatible with:
+Compatible with **Tonkeeper** and other TON-based wallets.
 
-- **Tonkeeper**
-- Other popular TON-compatible wallets
-
-To make payment easier, you can scan this QR code (TON address encoded):
+**QR Code for direct payment:**
 
 [TON Wallet QR Code](./ton-wallet-qr.png)
 
-> Tip: On GitHub, after you upload `ton-wallet-qr.png` to the repository root,  
-> users can click this link to view/download the QR and scan it from their wallet app.
+---
+
+## 📩 Purchase & Delivery Process
+
+1. Choose your license (Developer or Professional)
+2. Send payment via TON / USDT (TON Network)
+3. Save your **Transaction Hash (TXID)**
+4. Email the following information:
+   - TXID
+   - Selected license
+   - Your email address (for delivery)
+
+📦 **Delivery time:** within **24 hours** after payment confirmation  
+📬 Delivery is **manual** via email.
 
 ---
 
-## 📩 How to Purchase & Delivery Process
+## 📞 Contact Information
 
-1. **Choose your license**  
-   - Developer (No Support) – 149 USD / 21 TON  
-   - Professional (With Support) – 299 USD / 43 TON  
+For purchase confirmation, delivery, or support requests:
 
-2. **Send the payment** to the TON wallet address:  
-   <span dir="ltr">`UQDL0a8BzT9QgQwyPp1lizdprvSRJpGPRXAlVYgNZ4RJz6or`</span>  
-   or scan the **QR code**:  
-   [TON Wallet QR Code](./ton-wallet-qr.png)
+- 📧 **Sales & Delivery:** info@iot-smart.ir  
+- 🛠 **Support:** support@iot-smart.ir  
+- 📮 **Alternative Email:** m.msm30@gmail.com  
 
-3. **Save your transaction hash (TXID)**  
-   From your wallet (Tonkeeper, etc.), copy the transaction ID.
-
-4. **Contact for delivery**  
-   Send the following information via **email or Telegram**:
-   - TXID (transaction hash)  
-   - Selected license type (**Developer** or **Professional**)  
-   - Your **email address** (for file delivery)  
-   - Optional: Your **Telegram ID** for faster communication  
-
-5. **Manual delivery**  
-   - You will receive:
-     - Source code package (ZIP)
-     - Documentation
-   - Delivery time: **within 24 hours** after payment confirmation.
+( Telegram support will be added later )
 
 ---
 
 ## ⚠️ Important Notes
 
-- This is **not** a beginner Arduino tutorial; it is a **deployment-oriented** project.
-- Some basic knowledge of:
-  - ESP8266 flashing
-  - WiFi configuration
-  - Relay modules and AC safety
-  is **strongly recommended**.
-
-- Always follow **electrical safety rules** when working with high voltage.
-
----
-
-## 🔄 Future Updates
-
-Planned improvements (not guaranteed, but intended):
-
-- Optional MQTT integration  
-- More configurable channels  
-- UI refinements for mobile devices  
-
-Professional customers may get priority for certain improvements based on feedback.
+- This is a **professional IoT project**, not a beginner tutorial
+- Basic familiarity with:
+  - ESP8266 programming
+  - Web configuration
+  - Relay safety (AC voltage)
+  is strongly recommended
+- Always follow electrical safety regulations
 
 ---
 
-## 📞 Contact
+## 🚀 Roadmap (Planned)
 
-For purchase, questions, or pre-sale details, please contact via:
+- Optional MQTT support
+- UI improvements
+- More flexible channel configuration
 
-- Email: *(add your email here)*  
-- Telegram: *(add your Telegram @username here)*  
+Priority may be given to Professional license holders.
 
 ---
 
-**NeoPanel4R v1.0.0** – designed for **real installations**, not just demos.
+**NeoPanel4R v1.0.0**  
+Built for **real IoT deployments**
