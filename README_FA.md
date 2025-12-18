@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Sadegh54msm/NeoPanel4Rv1.0.0/main/images/Cover.webp"
+       alt="NeoPanel4R – ESP8266 IoT Control Panel" />
+</p>
 # 🔌 NeoPanel4R
 ### پنل کنترل هوشمند چهار رله‌ای مبتنی بر ESP8266
 
