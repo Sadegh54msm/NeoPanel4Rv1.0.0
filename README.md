@@ -163,10 +163,40 @@ This is **commercial software**. See [LICENSE.md](LICENSE.md) for terms.
 ---
 
 © 2025 Mohammad Sadegh Moridi. All rights reserved.
-## Purchase
+## Pricing & Purchase
 
-To purchase this project, pay using **TON or USDT (TON Network)**.
+### 🔵 Professional License (With Support)
+Recommended for real-world projects and fast deployment.
 
-After payment, the full source code will be delivered manually via email or Telegram.
+✅ Full source code  
+✅ Complete setup & installation guide  
+✅ Technical support (14 days)  
+✅ Priority response (24–48 hours)  
+✅ Hardware wiring checklist  
+✅ One-time configuration review  
 
-**Payment (Tonkeeper):**
+**Price:**  
+- 299 USDT (TON Network)  
+- or 43 TON  
+
+---
+
+### 🟢 Developer License (No Support)
+For experienced developers only.
+
+✅ Full source code  
+✅ Documentation  
+✅ Commercial usage (single project)  
+
+❌ No technical support  
+❌ No warranty  
+
+**Price:**  
+- 149 USDT (TON Network)  
+- or 21 TON  
+
+---
+
+### 🔐 Payment Method
+Payment is accepted via **TON or USDT (TON Network)** using Tonkeeper.
+
